@@ -17,7 +17,7 @@ This project is a Vite-based React dashboard prototype for a Gen AI Analytics to
 3. Run `npm run dev` to start the development server.
 
 ## Deployment
-Deployed on [Netlify/Vercel](https://gen-ai-analytical-dashboard.vercel.app/).  
+Deployed on [Vercel](https://gen-ai-analytical-dashboard.vercel.app/).  
 Repository: [GitHub Repo URL](https://github.com/Prathamgupta661/Gen_Ai_Analytical_Dashboard)
 
 ## Approach
