@@ -1,6 +1,6 @@
 import React from 'react';
 import QueryDashboard from './components/QueryDashboard';
-import { Container, Typography } from '@mui/material';
+import { Container, Typography, Box, Link } from '@mui/material';
 
 function App() {
   return (
@@ -9,6 +9,14 @@ function App() {
         Gen AI Analytics Dashboard
       </Typography>
       <QueryDashboard />
+      <Box mt={4} textAlign="center">
+        <Typography variant="body2" color="textSecondary">
+          © {new Date().getFullYear()} Pratham Gupta. All rights reserved.{' '}
+          <Link href="https://github.com/Prathamgupta661/Gen_Ai_Analytical_Dashboard" target="_blank" rel="noopener">
+            GitHub Repository
+          </Link>
+        </Typography>
+      </Box>
     </Container>
   );
 }
